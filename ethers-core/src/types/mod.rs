@@ -25,6 +25,9 @@ pub use log::{Filter, Log, ValueOrArray};
 mod ens;
 pub use ens::NameOrAddress;
 
+mod i256;
+pub use self::i256::I256;
+
 mod signature;
 pub use signature::*;
 
